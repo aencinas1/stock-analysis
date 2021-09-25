@@ -10,7 +10,7 @@ Lets take a look at the stock results first:
 
 ![](Resources/Stocks_2018.PNG)
 
-Since we are not adjusting the data, the stock outputs remain the same as before. It is clear that Steve should advise his parents to stay away from DQ stocks and instead should be investing in ENPH, as that stock has had two straight years of strong growth. What we are really looking at here, however, is the run time of the macro. Below are the new run times of the refactored macro:
+Since we are not adjusting the data, the stock outputs remain the same as before. It is clear that Steve should advise his parents to stay away from DQ stocks and instead should be investing in ENPH, as that stock has had two straight years of strong growth. RUN would have also been a good investment, although not as strong as ENPH. What we are really looking at here, however, is the run time of the macro. Below are the new run times of the refactored macro:
 
 ![](Resources/VBA_Challenge_2017.PNG)
 
@@ -20,3 +20,9 @@ These run times are significantly improved from our original code, where my 2017
 
 ---
 ### The Refactoring
+![](Resources/code1.PNG)
+![](Resources/Code2.PNG)
+
+The main accomplishment of the refactoring is the removal of additional loops and nested loops. To achieve this, several arrays needed to be added to properly loop through rows and values. I also had to add a loop to output the data since our goal was to reduce nested loops. Removing the amount of iterations through data significantly reduced our run time and should be more friendly to expansion.
+
+## Summary
